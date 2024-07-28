@@ -1,0 +1,27 @@
+/* Styles for the header component */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1, header p {
+    margin: 0;
+  }
+  
+  .cart-icon {
+    position: relative;
+  }
+  
+  .cart-icon span {
+    background-color: red;
+    border-radius: 50%;
+    padding: 0.5em;
+    color: white;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+  }
